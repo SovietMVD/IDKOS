@@ -232,7 +232,7 @@ if __name__ == '__main__':
                 Data.extend(image_three)
                 psi = int(len(Images_Tensor) / 3)
                 print("psi:", psi)
-                t = 100
+                t = 200
                 print("t:", t)
                 Epoch += 1
                 print("Epoch:", Epoch)
@@ -246,5 +246,6 @@ if __name__ == '__main__':
     print(f"AUROC: {auroc:.4f}")
     print(f"AUPR: {aupr:.4f}")
     print(f"FPR95: {fpr95:.4f}")
+
 
     plot_metrics(labels, scores, auroc, aupr)
