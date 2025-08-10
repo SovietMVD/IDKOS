@@ -3,7 +3,7 @@ There has three code file to achieve Open-set recongnition base on IDK,and the c
 https://pan.baidu.com/s/1i9qpw-p_64zok764xi51NQ?pwd=nc3r 
 code: nc3r
 The file branch structure is
-ID file:
+ID folder:
 ID name
   person_class
       image
@@ -15,7 +15,7 @@ ID name
   person_class
       ......
 
-Test file(include ID and OOD samples):
+Test folder(include ID and OOD samples):
 Test file
   image
     full_image
